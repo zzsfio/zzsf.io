@@ -1,0 +1,7 @@
+#!/bin/bash
+
+hugo --config config-pro.toml
+git add .
+git commit -m "deploy"
+git push origin
+
